@@ -26,7 +26,7 @@ public class Main {
 			try {
 				String value = employeeMap.get(inputKey);
 				if (value == null) {
-					 throw new RuntimeException("キーが見つかりません: " + inputKey);
+					 throw new RuntimeException("従業員名が見つかりません。: " + inputKey);
 				}
 	            System.out.println("キー " + inputKey + " に対応する値は " + value + " です。");
 			 } catch (RuntimeException e) {
